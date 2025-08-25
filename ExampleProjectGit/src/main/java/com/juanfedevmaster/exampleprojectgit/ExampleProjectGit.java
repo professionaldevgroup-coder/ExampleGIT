@@ -11,6 +11,16 @@ package com.juanfedevmaster.exampleprojectgit;
 public class ExampleProjectGit {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Students student1 = new Students(
+                1, 
+                "Juan", 
+                "Pérez", 
+                20, 
+                "juan.perez@example.com", 
+                "Computer Science", 
+                4.2
+        );
+
+        System.out.println(student1);
     }
 }
